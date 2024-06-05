@@ -1,0 +1,20 @@
+/* Estilos personalizados */
+/* Adicione aqui suas variações de cor e outros estilos específicos */
+
+/* Estilos do cabeçalho */
+header {
+    padding: 10px 0;
+}
+
+/* Estilos para diferentes tamanhos de tela */
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores (tablets e smartphones) */
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+}
+
